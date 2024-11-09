@@ -6,3 +6,4 @@ While analyzing the data given, one feature being countries we have chosen to wo
 
 Problem Statement: To analyze and develop a predictive model that accurately forecasts the average temperature for South Africa over a *given time period* based on the manure management, years, urban population and total emission. In order to determine the impact of food production.
 
+How we determined the features we will be using was how relevant each dataset to South Africas climate. We created pair plots so our decision on the features  can be determined using the given data and usable for the predictive model. Forest fires was one of our consideration but on the pair plot against average temperature data was not showing any relevance.
