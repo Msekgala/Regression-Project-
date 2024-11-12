@@ -1,14 +1,15 @@
 ##### Regression-Project-
 
 Excecutive Summary:
-As the PTSD data scientist we have been tasked to analyze and predict the average temperature from the agri-food sector, using the data received from FAO and IPCC. The dataset comprises of about 30 features and +7000 records.
-While analyzing the data given, one feature being countries we have chosen to work with the dataset from South Africa. The country as we know it has diverse demographics, a resource-rich country and an attractive tourism industry.
+As PTSD Data Scientists, we were tasked with analyzing and predicting average temperature trends in South Africa. We utilized a dataset of approximately 7,000 records and 30 features, sourced from the FAO and IPCC. By 
+focusing on South Africa, a country with diverse demographics, significant natural resources, and a thriving tourism industry, we aim to gain valuable insights into the impact of various factors, including agricultural 
+practices and environmental conditions, on temperature patterns.
 
-Problem Statement: To analyze and develop a predictive model that accurately forecasts the average temperature for South Africa over 1990 to 2020 based on the manure management, years, urban population, total emission, rice cultivation and IPPU in order to determine the impact of food production.
+Problem Statement: To analyze and develop a predictive model that accurately forecasts the average temperature for South Africa over the period 1990 to 2020. We will also conduct feature selection to identify the most 
+relevant factors influencing temperature, such as manure management, urban population, total emissions, rice cultivation, and IPPU. The goal is to gain insights into the potential impact of food production practices and 
+environmental factors on temperature trends.
 
-How we determined the features we will be using was how relevant each dataset to South Africas climate. We created pair plots so our decision on the features  can be determined using the given data and usable for the predictive model. Forest fires was one of our consideration but on the pair plot against average temperature data was not showing any relevance.
-
-While doing some analysis on the chosen features we need to check for multicollinearity. This arises when at least two or more independent variables in a model are highly correlated, indicating a strong linear relationship among the predictor variables. We will use the Ordinary Least Squares summary as it can provide insight on potential errors, model evaluation, coefficient interpretation and potential model improvement. This gives a deeper underlying relationships between variables.
+To ensure the reliability of our model, we will assess the features for multicollinearity. This statistical phenomenon occurs when two or more independent variables are highly correlated, potentially leading to unstable model estimates and difficulties in interpreting the impact of individual features. By examining the Ordinary Least Squares (OLS) regression summary, we can gain insights into potential multicollinearity issues, evaluate model performance, interpret coefficient estimates, and identify areas for improvement. This analysis will provide a deeper understanding of the underlying relationships between the variables and guide our feature selection process.
 
 The below are some of the models that we have used in our project, included advantages and disadvantages
 1. Mulitiple Linear Regression - relationship between a dependent variable and multiple independent variables
@@ -34,12 +35,9 @@ The below are some of the models that we have used in our project, included adva
    * Prone to overfitting
    * Can be sensitive to noise in the data
   
-Based on our models, it seems the decision tree worked better with our data. Using the random forest to improve our model even further.
-
-Conclusion: Our models did not perform as best as we had set out and this could be due to various things. In future we would also take datasets of 2 countries to run parallel to each to see how the models perform. This will help with better training and testing of our model
+Conclusion: While our initial models did not achieve the level of performance we had anticipated, we believe there are several avenues for improvement. One potential direction is to expand our dataset to include data from multiple countries, enabling more robust training and testing.
+Our preliminary analysis suggests that Decision Tree models may be particularly well-suited to our dataset. We plan to further explore the potential of ensemble methods, such as Random Forest, to enhance predictive accuracy and model robustness.
 
 Trello Board Link: https://trello.com/b/w5UNwLtb/regression-project
 Google Slides: https://docs.google.com/presentation/d/1dwN097_VOAcucX2hrlJso0DXM0a-wqJWhXeGergKfkU/edit?usp=sharing
-
-
 
